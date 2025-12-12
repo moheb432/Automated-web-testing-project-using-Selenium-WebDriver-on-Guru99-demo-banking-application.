@@ -1,0 +1,343 @@
+Request method:	POST
+Request URI:	https://rahulshettyacademy.com/api/ecom/order/create-order
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		authorization=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2OGZkZDFkNWY2NjlkNmNiMGEyY2E3NDEiLCJ1c2VyRW1haWwiOiJtb2hlYmFzaHJhZjQ2QGdtYWlsLmNvbSIsInVzZXJNb2JpbGUiOjEwMjAyNzQ4MDMsInVzZXJSb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE3NjM4MTE0NjMsImV4cCI6MTc5NTM2OTA2M30.tFKTfnPXYnUH2d--HijAilKl9fduLW4-zUPq1yYL2oo
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "orders": [
+        {
+            "productOrderedId": "6921a0885008f6a9093232fb",
+            "country": "egypt"
+        }
+    ]
+}
+HTTP/1.1 201 Created
+Date: Sat, 22 Nov 2025 11:37:47 GMT
+Server: Apache/2.4.52 (Ubuntu)
+Content-Security-Policy: default-src 'self';base-uri 'self';block-all-mixed-content;font-src 'self' https: data:;frame-ancestors 'self';img-src 'self' data:;object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests
+X-DNS-Prefetch-Control: off
+Expect-CT: max-age=0
+X-Frame-Options: SAMEORIGIN
+Strict-Transport-Security: max-age=15552000; includeSubDomains
+X-Download-Options: noopen
+X-Content-Type-Options: nosniff
+X-Permitted-Cross-Domain-Policies: none
+Referrer-Policy: no-referrer
+X-XSS-Protection: 0
+Access-Control-Allow-Origin: *
+Content-Type: application/json; charset=utf-8
+Content-Length: 123
+ETag: W/"7b-BUyCQCqAOokNH3+DIf4x8a/kyGg"
+Vary: Accept-Encoding
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+
+{
+    "orders": [
+        "6921a08b5008f6a909323303"
+    ],
+    "productOrderId": [
+        "6921a0885008f6a9093232fb"
+    ],
+    "message": "Order Placed Successfully"
+}
+Request method:	DELETE
+Request URI:	https://rahulshettyacademy.com/api/ecom/order/delete-order/6921a08b5008f6a909323303
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	orderId=6921a08b5008f6a909323303
+Headers:		authorization=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2OGZkZDFkNWY2NjlkNmNiMGEyY2E3NDEiLCJ1c2VyRW1haWwiOiJtb2hlYmFzaHJhZjQ2QGdtYWlsLmNvbSIsInVzZXJNb2JpbGUiOjEwMjAyNzQ4MDMsInVzZXJSb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE3NjM4MTE0NjMsImV4cCI6MTc5NTM2OTA2M30.tFKTfnPXYnUH2d--HijAilKl9fduLW4-zUPq1yYL2oo
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Sat, 22 Nov 2025 11:37:50 GMT
+Server: Apache/2.4.52 (Ubuntu)
+Content-Security-Policy: default-src 'self';base-uri 'self';block-all-mixed-content;font-src 'self' https: data:;frame-ancestors 'self';img-src 'self' data:;object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests
+X-DNS-Prefetch-Control: off
+Expect-CT: max-age=0
+X-Frame-Options: SAMEORIGIN
+Strict-Transport-Security: max-age=15552000; includeSubDomains
+X-Download-Options: noopen
+X-Content-Type-Options: nosniff
+X-Permitted-Cross-Domain-Policies: none
+Referrer-Policy: no-referrer
+X-XSS-Protection: 0
+Access-Control-Allow-Origin: *
+Content-Type: application/json; charset=utf-8
+Content-Length: 41
+ETag: W/"29-bffoZhIu2/PhrYGwacnOeGY9WaM"
+Vary: Accept-Encoding
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+
+{
+    "message": "Orders Deleted Successfully"
+}
+Request method:	DELETE
+Request URI:	https://rahulshettyacademy.com/api/ecom/product/delete-product/6921a0885008f6a9093232fb
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	productId=6921a0885008f6a9093232fb
+Headers:		authorization=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2OGZkZDFkNWY2NjlkNmNiMGEyY2E3NDEiLCJ1c2VyRW1haWwiOiJtb2hlYmFzaHJhZjQ2QGdtYWlsLmNvbSIsInVzZXJNb2JpbGUiOjEwMjAyNzQ4MDMsInVzZXJSb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE3NjM4MTE0NjMsImV4cCI6MTc5NTM2OTA2M30.tFKTfnPXYnUH2d--HijAilKl9fduLW4-zUPq1yYL2oo
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Sat, 22 Nov 2025 11:37:51 GMT
+Server: Apache/2.4.52 (Ubuntu)
+Content-Security-Policy: default-src 'self';base-uri 'self';block-all-mixed-content;font-src 'self' https: data:;frame-ancestors 'self';img-src 'self' data:;object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests
+X-DNS-Prefetch-Control: off
+Expect-CT: max-age=0
+X-Frame-Options: SAMEORIGIN
+Strict-Transport-Security: max-age=15552000; includeSubDomains
+X-Download-Options: noopen
+X-Content-Type-Options: nosniff
+X-Permitted-Cross-Domain-Policies: none
+Referrer-Policy: no-referrer
+X-XSS-Protection: 0
+Access-Control-Allow-Origin: *
+Content-Type: application/json; charset=utf-8
+Content-Length: 42
+ETag: W/"2a-2mOwR6FOFcYds+NaVy6wWIOyKCY"
+Vary: Accept-Encoding
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+
+{
+    "message": "Product Deleted Successfully"
+}
+Request method:	GET
+Request URI:	https://rahulshettyacademy.com/api/ecom/product/get-product-detail/6921a0885008f6a9093232fb
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	productId=6921a0885008f6a9093232fb
+Headers:		authorization=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2OGZkZDFkNWY2NjlkNmNiMGEyY2E3NDEiLCJ1c2VyRW1haWwiOiJtb2hlYmFzaHJhZjQ2QGdtYWlsLmNvbSIsInVzZXJNb2JpbGUiOjEwMjAyNzQ4MDMsInVzZXJSb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE3NjM4MTE0NjMsImV4cCI6MTc5NTM2OTA2M30.tFKTfnPXYnUH2d--HijAilKl9fduLW4-zUPq1yYL2oo
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 400 Bad Request
+Date: Sat, 22 Nov 2025 11:37:51 GMT
+Server: Apache/2.4.52 (Ubuntu)
+Content-Security-Policy: default-src 'self';base-uri 'self';block-all-mixed-content;font-src 'self' https: data:;frame-ancestors 'self';img-src 'self' data:;object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests
+X-DNS-Prefetch-Control: off
+Expect-CT: max-age=0
+X-Frame-Options: SAMEORIGIN
+Strict-Transport-Security: max-age=15552000; includeSubDomains
+X-Download-Options: noopen
+X-Content-Type-Options: nosniff
+X-Permitted-Cross-Domain-Policies: none
+Referrer-Policy: no-referrer
+X-XSS-Protection: 0
+Access-Control-Allow-Origin: *
+Content-Type: application/json; charset=utf-8
+Content-Length: 31
+ETag: W/"1f-Zkgaox/LmBaRs1Ofkuc8bu8COvo"
+Vary: Accept-Encoding
+Connection: close
+
+{
+    "message": "Product not found"
+}
+Request method:	POST
+Request URI:	https://rahulshettyacademy.com/api/ecom/order/create-order
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		authorization=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2OGZkZDFkNWY2NjlkNmNiMGEyY2E3NDEiLCJ1c2VyRW1haWwiOiJtb2hlYmFzaHJhZjQ2QGdtYWlsLmNvbSIsInVzZXJNb2JpbGUiOjEwMjAyNzQ4MDMsInVzZXJSb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE3NjM4MTE0NjMsImV4cCI6MTc5NTM2OTA2M30.tFKTfnPXYnUH2d--HijAilKl9fduLW4-zUPq1yYL2oo
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "orders": [
+        {
+            "productOrderedId": "6921a0915008f6a909323319",
+            "country": "egypt"
+        }
+    ]
+}
+HTTP/1.1 201 Created
+Date: Sat, 22 Nov 2025 11:37:55 GMT
+Server: Apache/2.4.52 (Ubuntu)
+Content-Security-Policy: default-src 'self';base-uri 'self';block-all-mixed-content;font-src 'self' https: data:;frame-ancestors 'self';img-src 'self' data:;object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests
+X-DNS-Prefetch-Control: off
+Expect-CT: max-age=0
+X-Frame-Options: SAMEORIGIN
+Strict-Transport-Security: max-age=15552000; includeSubDomains
+X-Download-Options: noopen
+X-Content-Type-Options: nosniff
+X-Permitted-Cross-Domain-Policies: none
+Referrer-Policy: no-referrer
+X-XSS-Protection: 0
+Access-Control-Allow-Origin: *
+Content-Type: application/json; charset=utf-8
+Content-Length: 123
+ETag: W/"7b-FtMjVElBwXO18hxP9hkuZaXCXrI"
+Vary: Accept-Encoding
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+
+{
+    "orders": [
+        "6921a0935008f6a90932331e"
+    ],
+    "productOrderId": [
+        "6921a0915008f6a909323319"
+    ],
+    "message": "Order Placed Successfully"
+}
+Request method:	DELETE
+Request URI:	https://rahulshettyacademy.com/api/ecom/order/delete-order/6921a0935008f6a90932331e
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	orderId=6921a0935008f6a90932331e
+Headers:		authorization=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2OGZkZDFkNWY2NjlkNmNiMGEyY2E3NDEiLCJ1c2VyRW1haWwiOiJtb2hlYmFzaHJhZjQ2QGdtYWlsLmNvbSIsInVzZXJNb2JpbGUiOjEwMjAyNzQ4MDMsInVzZXJSb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE3NjM4MTE0NjMsImV4cCI6MTc5NTM2OTA2M30.tFKTfnPXYnUH2d--HijAilKl9fduLW4-zUPq1yYL2oo
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Sat, 22 Nov 2025 11:37:56 GMT
+Server: Apache/2.4.52 (Ubuntu)
+Content-Security-Policy: default-src 'self';base-uri 'self';block-all-mixed-content;font-src 'self' https: data:;frame-ancestors 'self';img-src 'self' data:;object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests
+X-DNS-Prefetch-Control: off
+Expect-CT: max-age=0
+X-Frame-Options: SAMEORIGIN
+Strict-Transport-Security: max-age=15552000; includeSubDomains
+X-Download-Options: noopen
+X-Content-Type-Options: nosniff
+X-Permitted-Cross-Domain-Policies: none
+Referrer-Policy: no-referrer
+X-XSS-Protection: 0
+Access-Control-Allow-Origin: *
+Content-Type: application/json; charset=utf-8
+Content-Length: 41
+ETag: W/"29-bffoZhIu2/PhrYGwacnOeGY9WaM"
+Vary: Accept-Encoding
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+
+{
+    "message": "Orders Deleted Successfully"
+}
+Request method:	DELETE
+Request URI:	https://rahulshettyacademy.com/api/ecom/product/delete-product/6921a0915008f6a909323319
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	productId=6921a0915008f6a909323319
+Headers:		authorization=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2OGZkZDFkNWY2NjlkNmNiMGEyY2E3NDEiLCJ1c2VyRW1haWwiOiJtb2hlYmFzaHJhZjQ2QGdtYWlsLmNvbSIsInVzZXJNb2JpbGUiOjEwMjAyNzQ4MDMsInVzZXJSb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE3NjM4MTE0NjMsImV4cCI6MTc5NTM2OTA2M30.tFKTfnPXYnUH2d--HijAilKl9fduLW4-zUPq1yYL2oo
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Sat, 22 Nov 2025 11:37:57 GMT
+Server: Apache/2.4.52 (Ubuntu)
+Content-Security-Policy: default-src 'self';base-uri 'self';block-all-mixed-content;font-src 'self' https: data:;frame-ancestors 'self';img-src 'self' data:;object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests
+X-DNS-Prefetch-Control: off
+Expect-CT: max-age=0
+X-Frame-Options: SAMEORIGIN
+Strict-Transport-Security: max-age=15552000; includeSubDomains
+X-Download-Options: noopen
+X-Content-Type-Options: nosniff
+X-Permitted-Cross-Domain-Policies: none
+Referrer-Policy: no-referrer
+X-XSS-Protection: 0
+Access-Control-Allow-Origin: *
+Content-Type: application/json; charset=utf-8
+Content-Length: 42
+ETag: W/"2a-2mOwR6FOFcYds+NaVy6wWIOyKCY"
+Vary: Accept-Encoding
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+
+{
+    "message": "Product Deleted Successfully"
+}
+Request method:	GET
+Request URI:	https://rahulshettyacademy.com/api/ecom/product/get-product-detail/6921a0915008f6a909323319
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	productId=6921a0915008f6a909323319
+Headers:		authorization=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2OGZkZDFkNWY2NjlkNmNiMGEyY2E3NDEiLCJ1c2VyRW1haWwiOiJtb2hlYmFzaHJhZjQ2QGdtYWlsLmNvbSIsInVzZXJNb2JpbGUiOjEwMjAyNzQ4MDMsInVzZXJSb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE3NjM4MTE0NjMsImV4cCI6MTc5NTM2OTA2M30.tFKTfnPXYnUH2d--HijAilKl9fduLW4-zUPq1yYL2oo
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 400 Bad Request
+Date: Sat, 22 Nov 2025 11:37:57 GMT
+Server: Apache/2.4.52 (Ubuntu)
+Content-Security-Policy: default-src 'self';base-uri 'self';block-all-mixed-content;font-src 'self' https: data:;frame-ancestors 'self';img-src 'self' data:;object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests
+X-DNS-Prefetch-Control: off
+Expect-CT: max-age=0
+X-Frame-Options: SAMEORIGIN
+Strict-Transport-Security: max-age=15552000; includeSubDomains
+X-Download-Options: noopen
+X-Content-Type-Options: nosniff
+X-Permitted-Cross-Domain-Policies: none
+Referrer-Policy: no-referrer
+X-XSS-Protection: 0
+Access-Control-Allow-Origin: *
+Content-Type: application/json; charset=utf-8
+Content-Length: 31
+ETag: W/"1f-Zkgaox/LmBaRs1Ofkuc8bu8COvo"
+Vary: Accept-Encoding
+Connection: close
+
+{
+    "message": "Product not found"
+}
+Request method:	POST
+Request URI:	https://rahulshettyacademy.com/api/ecom/order/create-order
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		authorization=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2OGZkZDFkNWY2NjlkNmNiMGEyY2E3NDEiLCJ1c2VyRW1haWwiOiJtb2hlYmFzaHJhZjQ2QGdtYWlsLmNvbSIsInVzZXJNb2JpbGUiOjEwMjAyNzQ4MDMsInVzZXJSb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE3NjM4MTE0NjMsImV4cCI6MTc5NTM2OTA2M30.tFKTfnPXYnUH2d--HijAilKl9fduLW4-zUPq1yYL2oo
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "orders": [
+        {
+            "productOrderedId": "6921a0975008f6a90932333a",
+            "country": "egypt"
+        }
+    ]
+}
