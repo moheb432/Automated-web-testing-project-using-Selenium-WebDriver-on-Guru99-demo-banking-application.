@@ -8,7 +8,7 @@ Implemented test scenarios for customer creation, editing, and validation using 
      gap: 10px;
      padding: 12px 22px;
      border-radius: 12px;
-     border: 2px solid transparent;
+     border: 10px solid transparent;
      background: linear-gradient(#0b0b0b, #0b0b0b) padding-box,
                  linear-gradient(90deg, #00f0ff, #9b5cff) border-box;
      color: white;
