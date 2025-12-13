@@ -88,4 +88,10 @@ Observed issues:
 
 1. Validation messages sometimes inconsistent  
 2. UI responsiveness slower than expected for certain forms  
-3. Certain fields allow invalid input (numbers, special characters)  
+3. Certain fields allow invalid input (numbers, special characters)
+  
+**Authors:**
+* Moheb Ashraf
+* Hanan Reda
+* Esraa
+
