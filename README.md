@@ -92,9 +92,9 @@ Observed issues:
   
 #  Author
 
-**Moheb Ashraf**
-**Hanan reda**
-**Esraa**
+- **Moheb Ashraf**
+- **Hanan reda**
+- **Esraa**
 
 Manual &  Automation Tester Engineer
 
