@@ -1,13 +1,26 @@
 # Automated web testing project using Selenium WebDriver on Guru99 demo banking application.
 Implemented test scenarios for customer creation, editing, and validation using Java, TestNG, and Cucumber for BDD. The framework includes reusable functions, shared driver management, and hooks
 
-📎 Full Web demo link:  
-[Guru99 Banking Demo](https://demo.guru99.com/V4/index.php)
-[![شعار Guru99 - انطلق للتعلم](https://placehold.co/40x40/6c5ce7/ffffff?text=G99)](https://www.guru99.com/)
+<a href="#"
+   style="
+     display: inline-flex;
+     align-items: center;
+     gap: 10px;
+     padding: 12px 22px;
+     border-radius: 12px;
+     border: 2px solid transparent;
+     background: linear-gradient(#0b0b0b, #0b0b0b) padding-box,
+                 linear-gradient(90deg, #00f0ff, #9b5cff) border-box;
+     color: white;
+     font-weight: 600;
+     text-decoration: none;
+     font-family: Arial, sans-serif;
+   ">
+   <span style="font-size:18px;">🏠</span>
+   Try Now
+   <span style="font-size:18px;">→</span>
+</a>
 
-**[انقر هنا للتعلم مع Guru99](https://www.guru99.com/)**
-
-    
 ## 📚 Project Scope
 
 This repository includes:  
